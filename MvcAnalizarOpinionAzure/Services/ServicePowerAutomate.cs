@@ -21,7 +21,7 @@ namespace MvcAnalizarOpinionAzure.Services
 
         public async Task<String> AnalizarOpinionAsync(string opinion)
         {
-            string request = "https://prod-81.westeurope.logic.azure.com:443/workflows/63811472ca0b424f8c983454a2e2de34/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=fZc2WbFqZEQ6r707WADj46SM_1byJFLXFfuS9Mfqt34";
+            string request = "*************************";
             using (HttpClient client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Accept.Clear();
